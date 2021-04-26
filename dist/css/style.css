@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  color: #f4f4f4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  margin: auto;
+  max-width: 375px;
+}
+
+#controls {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-weight: lighter;
+}
